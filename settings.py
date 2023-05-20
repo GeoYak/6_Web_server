@@ -3,7 +3,6 @@ PORT = 80
 DIRECTORY = 'index'
 BUFFER_SIZE = 8192
 DEFAULT_PATH = 'index.html'
-LOGS = 'log.txt'
 ALLOWED_TYPES = ('html',
                  'css',
                  'js',
