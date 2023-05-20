@@ -6,7 +6,7 @@ from settings import *
 
 
 def add_log(date, addr, path):
-    with open(LOGS, 'a') as logs:
+    with open('log.txt', 'a') as logs:
         logs.write(f'<{date}> {addr}: {path}\n')
 
 
