@@ -15,7 +15,6 @@ TYPES = {'html': 'text/html',
          'css': 'text/css',
          'js': 'text/js',
          'png': 'image/png'}
-TYPES_BINARY = ['png']
 RESPONSE_PATTERN = '''HTTP/1.1 {} {}
 Date: {}
 Server: SelfMadeServer v0.0.1
